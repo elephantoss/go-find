@@ -4,6 +4,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/elephantoss/go-find/badge.svg?branch=main)](https://coveralls.io/github/elephantoss/go-find?branch=main)
 ![GitHub](https://img.shields.io/github/license/elephantoss/go-find?color=blue)
 ![GitHub last commit](https://img.shields.io/github/last-commit/elephantoss/go-find?color=yellowgreen)
+[![Go Report Card](https://goreportcard.com/badge/github.com/elephantoss/go-find)](https://goreportcard.com/report/github.com/elephantoss/go-find)
 
 Find is a utility library that provides a convenient way to find elements in collections.
 
