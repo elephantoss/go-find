@@ -1,7 +1,7 @@
 # Find
 
 [![Build & Test](https://github.com/elephantoss/go-find/actions/workflows/go.yaml/badge.svg)](https://github.com/elephantoss/go-find/actions/workflows/go.yaml)
-[![Coverage Status](https://coveralls.io/repos/github/elephantoss/go-find/badge.svg?branch=main)](https://coveralls.io/github/elephantoss/go-find?branch=main)
+[![Coverage Status](https://coveralls.io/repos/github/elephantoss/go-find/badge.svg?branch=main&service=github)](https://coveralls.io/github/elephantoss/go-find?branch=mainn&service=github)
 ![GitHub](https://img.shields.io/github/license/elephantoss/go-find?color=blue)
 ![GitHub last commit](https://img.shields.io/github/last-commit/elephantoss/go-find?color=yellowgreen)
 [![Go Report Card](https://goreportcard.com/badge/github.com/elephantoss/go-find)](https://goreportcard.com/report/github.com/elephantoss/go-find)
