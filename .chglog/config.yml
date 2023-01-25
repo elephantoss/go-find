@@ -1,0 +1,36 @@
+style: github
+template: CHANGELOG.tpl.md
+info:
+  title: CHANGELOG
+  repository_url: https://github.com/elephantoss/go-find
+options:
+  tag_filter_pattern: "^v"
+  sort: "date"
+  commits:
+    filters:
+      Type:
+        - feat
+        - fix
+        - perf
+        - refactor
+        - chore
+        - docs
+    sort_by: Scope
+  commit_groups:
+    group_by: Type
+    title_maps:
+      feat: Exciting New Features 🎉
+      fix: Bug Fixes 🐛
+      perf: Performance Improvements ⚡️
+      refactor: Code Refactoring 💡
+      docs: Documentation 📝
+      chore: Chore 🤖
+  header:
+    pattern: "^(\\w*).?(?:\\(([\\w\\$\\.\\-\\*\\s]*)\\))?\\:\\s(.*)$"
+    pattern_maps:
+      - Type
+      - Scope
+      - Subject
+  notes:
+    keywords:
+      - BREAKING CHANGE
